@@ -31,7 +31,7 @@
 
 ## 🔗 主题
 
-这些仓库统一打了 [`mtgpu`](https://github.com/topics/mtgpu) / [`moore-threads`](https://github.com/topics/moore-threads) topic，
-在 GitHub Topics 里可以直接看到整个合集。
+- 仓库统一打了 [`mtgpu`](https://github.com/topics/mtgpu) / [`moore-threads`](https://github.com/topics/moore-threads) topic；
+- GitHub List：**[MUSA](https://github.com/yeungtuzi/lists)** — `mtgpu-*`、`reunion-lite`、`Xiaotu-LLM` 的合集。
 
 更多仓库见 [Repositories](https://github.com/yeungtuzi?tab=repositories)。
