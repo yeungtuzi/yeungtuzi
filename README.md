@@ -24,7 +24,7 @@
 
 | 项目 | 说明 |
 |---|---|
-| [mtgpu-kde](https://github.com/yeungtuzi/mtgpu-kde) | KDE Plasma 6.8 for M1000：构建记录、**EDR/HDR**（峰值亮度通告、`target_luminance` 修正）、半屏修复、fcitx5；含 `mtgpu-kwin-edr` 覆盖包 |
+| [mtgpu-kde](https://github.com/yeungtuzi/mtgpu-kde) | KDE Plasma 6.8 for M1000：构建记录、**EDR/HDR**（固定 1000 nit 客户端目标、参考白随亮度条、**BT.2390 滚降 LUT**）、半屏修复、fcitx5；含 `mtgpu-kwin-edr` 覆盖包，是 mtgpu-chromium 的配套依赖 |
 | [mtgpu-woa](https://github.com/yeungtuzi/mtgpu-woa) | 在 KVM/QEMU 上跑 Windows 11 ARM64：显示走 RDP/RemoteFX，M1000 vfio-pci 直通，无专有组件 |
 
 ## 🛠️ 工具链与浏览器
@@ -33,8 +33,7 @@
 |---|---|
 | [mtgpu-clang](https://github.com/yeungtuzi/mtgpu-clang) | aarch64 clang/LLVM（AArch64-only、`cortex-a78+nocrypto`）deb，只装到 `/opt/mtgpu-toolchain`，不动系统 clang |
 | [mtgpu-rust](https://github.com/yeungtuzi/mtgpu-rust) | aarch64 Rust 1.100-nightly（Chromium 固定 commit）+ `rustc-dev` + bindgen + **crubit**，同样只装 `/opt` |
-| [mtgpu-chromium](https://github.com/yeungtuzi/mtgpu-chromium) | 本机源码构建的 Chromium 157（release）：de-Googled 版与标准版，含 EDR 实测记录与补丁说明 |
-| [mtgpu-woa](https://github.com/yeungtuzi/mtgpu-woa) | 同上（虚拟化） |
+| [mtgpu-chromium](https://github.com/yeungtuzi/mtgpu-chromium) | AIBOOK 上源码构建的 Chromium 157（[Release](https://github.com/yeungtuzi/mtgpu-chromium/releases/tag/v157.0.8103.38)）：**mtgpu VPU 硬解**（H.264/HEVC/VP9/AV1）、配合 mtgpu-kde 的 **EDR**（HDR1000 → TrueBlack HDR500）、去 Google 版；需与 mtgpu-kde 配套，仅 AIBOOK 验证 |
 
 ## ⚙️ 其他工具
 
