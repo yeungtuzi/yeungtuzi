@@ -11,6 +11,7 @@
 |---|---|
 | [Xiaotu-LLM](https://github.com/yeungtuzi/Xiaotu-LLM) | **XTU = X Transformers Unity**：vLLM 主线插件 + CPU MoE 引擎，混合（CPU-expert + GPU）推理加速；12 小时满载压测通过；含 MUSA 初步支持 |
 | [vllm](https://github.com/yeungtuzi/vllm) | vLLM fork，承载 XTU 相关的开发线 |
+| [aibook-llm-prune](https://github.com/yeungtuzi/aibook-llm-prune) | AIBOOK M1000 上的 Qwen3.6-35B-A3B 端侧推理：160 专家全驻留 coder 20.4 tok/s；256 + 128 热专家 13.2 tok/s；96 + 运维 N-gram 15–32 tok/s；全程保持 >6 GB 余量 |
 
 ## 🎮 游戏与模拟器
 
