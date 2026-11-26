@@ -27,6 +27,7 @@
 |---|---|
 | [mtgpu-kde](https://github.com/yeungtuzi/mtgpu-kde) | KDE Plasma 6.8 for M1000：构建记录、**EDR/HDR**（固定 1000 nit 客户端目标、参考白随亮度条、**BT.2390 滚降 LUT**）、半屏修复、fcitx5；含 `mtgpu-kwin-edr` 覆盖包，是 mtgpu-chromium 的配套依赖 |
 | [mtgpu-woa](https://github.com/yeungtuzi/mtgpu-woa) | 在 KVM/QEMU 上跑 Windows 11 ARM64：显示走 RDP/RemoteFX，M1000 vfio-pci 直通，无专有组件 |
+| [metalhdr](https://github.com/yeungtuzi/metalhdr) | macOS 网页 **SDR → HDR**：Safari 扩展 / Chromium 扩展 / 油猴脚本三形态；读取 `NSScreen` 的 EDR 峰值自动定标，**C1 连续软肩滚降、不裁切**；高（多 pass 高光检测）/ 低（单 pass）两档画质，4K25 实测 19.7 ms/帧 |
 
 ## 🛠️ 工具链与浏览器
 
